@@ -1,0 +1,471 @@
+
+/*===============================================================================================
+                                BODY SECTION CSS
+===============================================================================================*/
+html,body{
+    width:100%;
+    height:100%;
+/*    padding:0;*/
+}
+/*===============================================================================================
+                                NAVIGATION SECTION CSS
+===============================================================================================*/
+.navbar{
+    background: white;
+    height:120px;
+}
+.navbar-right{
+    margin-right:0px;
+    padding:50px;
+    margin-left:50px;
+    
+}
+.image{
+    margin-left:-50px;
+}
+#slider{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*===============================================================================================
+                                PARALLAX SECTION CSS
+===============================================================================================*/
+.bg-parallax{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*only can be used in css not in html imgsrc*/
+    background-attachment: fixed;
+}
+/*===============================================================================================
+                                ABOUT SECTION CSS
+===============================================================================================*/
+.contents{
+    margin-top:5%;
+}
+.our{
+    font-size:40px;
+    font-family:"roboto";
+    color:#454545;
+    text-shadow: 4px 4px 4px #ccc;
+}
+.rulers{
+    width:80px;
+    height:4px;
+    margin:0 auto;
+    background:linear-gradient(to right,#31487c,#5cdb95);
+    border-top:none;
+}
+.card{
+    margin-left:20px;
+    margin-top:5px;
+    height: 510px;
+/*    border:dashed 2px #aaa; */
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2),1px -1px 1px rgba(0,0,0,0.2);
+    
+}
+.clearfix{
+    content:"";
+    clear:"both";
+    display:block;
+    
+}
+.section1{
+    margin-top:4%;
+    margin-bottom: 0px;
+}
+
+.arrow{
+    width:300px;
+    height:50px;
+    background: linear-gradient(to right,#31487c,#5cdb95);
+    vertical-align:middle;
+/*    margin-top:40%;*/
+    position: relative;
+    margin-left:10%;
+    box-shadow: 5px 5px 5px #ccc;
+    
+}
+.arrow1{
+    width:500px;
+    height:50px;
+    background: linear-gradient(to right,#31487c,#5cdb95);
+    vertical-align:middle;
+/*    margin-top:40%;*/
+    position: relative;
+    margin-left:10%;
+    box-shadow: 5px 5px 5px #ccc;
+    
+}
+.left{
+    background: linear-gradient(to right,#5cdb95,#31487c);
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 35px solid transparent;
+	border-right:solid 60px #31487c;
+	border-bottom: 35px solid transparent;
+    margin-top:-10px;
+    position: absolute;
+    z-index:99;
+    
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 35px solid transparent;
+	border-left: 60px solid #31487c;
+	border-bottom: 35px solid transparent;
+    position: absolute;
+    z-index: 99;
+    margin-top:-12%;
+    margin-left:102%;
+}
+.shapes{
+    margin-top:50%;
+    margin-left:10%;
+    margin-bottom:0;
+}
+.shapes1{
+    margin-left:48%;
+    margin-top:50%;
+}
+.label1{
+    background: linear-gradient(to right,#31487c,#5cdb95);;
+    color:white;
+    padding:10px;
+    width:100%;
+    font-family: "roboto";
+}
+.rectangle{
+    
+  position: relative;
+  width:70%;
+  padding:40px;
+  height:510px;
+  margin: 2em auto;
+  color: #fff;
+    font-size:20px;
+  background: #31487c;
+  margin-top:17px;
+    
+}
+.cir{
+    display: block;
+    position:absolute;
+    z-index:99;
+    width:6px;
+    height:6px;
+    border-radius:100%;
+    box-shadow:1px 1px 1px #777;
+    margin-bottom: 20px;
+    margin-left:90px;
+    margin-top:50px;
+    background: white;
+    top:40px;
+    
+
+}
+
+.rectangle:before {
+
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-width: 0 56px 56px 0;
+
+      border-style: solid;
+      border-color: #5cdb95 #fff;
+        display: block;
+      width: 0;
+        box-shadow: 0 8px 8px rgba(0,0,0,0.4), -5px 5px 5px rgba(0,0,0,0.2);
+  
+}
+.rectangle:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-width: 0 56px 56px 0;
+
+      border-style: solid;
+      border-color: #fff #5cdb95;
+        display: block;
+      width: 0;
+        box-shadow: 8px 0 8px rgba(0,0,0,0.4),5px -5px 5px rgba(0,0,0,0.2);
+  
+}
+.paragraph{
+    font-family:bad script;
+}
+.inner-card{
+    margin-top:20px;
+    margin-left: 25px;
+    width:900px;
+    height:400px;
+    background:white;
+    box-shadow: 2px 2px 5px #ddd,1px -1px 1px #ddd;
+
+    padding:30px;
+    
+}
+.inside-card{
+    font-size:16px;
+    color:#454545;
+    font-family:"roboto";
+}
+.why{
+    color:white;
+    font-size:34px;
+    font-family: bad script;
+    font-weight: 300;
+}
+.container{
+    height:305px;
+}
+
+.padding-left{
+    padding-left: 0;
+    
+}
+
+.padding-right{
+    padding-right: 0;
+}
+
+
+.text{
+    background: white;
+    width:238px;
+    margin-left:10px;
+}
+li{
+    list-style:unset;
+}
+
+/*===============================================================================================
+                                ANIMATION SECTION CSS
+===============================================================================================*/
+.label1,
+.inside-card,
+.inner-card,
+.text-heading{
+    animation-duration: .5s;
+}
+.label1{
+    animation-delay: .5s;
+}
+.inside-card{
+    animation-delay: .5s;
+    
+}
+.inner-card{
+    animation-delay: 1s;
+}
+.fa{
+    animation-delay:1s;
+}
+.text-heading{
+    animation-delay:1s;
+}
+
+
+/*===============================================================================================
+                                SERVICE SECTION CSS
+===============================================================================================*/
+
+
+.service-item{
+    padding:20px 0;
+    margin:0 0 20px;
+    cursor:pointer;
+}
+.service-item-icon .fa{
+    color:#5cdb95;
+    float:left;
+    margin-right:25px;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.service-box{
+    margin-top:5%;
+}
+
+.service-item-title .text-heading{
+    font-size:20px;
+    font-weight:400;
+    margin:0 0 10px;
+    color:white;
+}
+.ser{
+    color:white;
+    text-shadow:none;
+}
+.service-item-desc p{
+    margin:0;
+    padding-left:100px;
+}
+.service-cover{
+    margin-top:5%;
+    background-image: url("img/services.jpg");
+    background-size: cover;
+    width:100%;
+    height:75%;
+}
+.service-contents{
+    background: rgba(0,0,0,0.8);
+    padding:27px 0;
+    
+}
+/*===============================================================================================
+                                TEAM SECTION CSS
+===============================================================================================*/
+
+.team-member{
+    margin:0 15px;
+}
+.team-member-info{
+    padding:10px 0 30px 0;
+}
+h4.team-member-name{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-designation{
+    color:#31487c;
+    font-size:16px;
+    font-family: "roboto";
+    font-weight:700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    
+}
+.team-images{
+    width:200px;
+    height:400px;
+}
+/*===============================================================================================
+                                SOCIAL ICON SECTION CSS
+===============================================================================================*/
+
+.social-list{
+    padding-left:0;
+    
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width:32px;
+    height:32px;
+    margin-right: 6px;
+    margin-top:10px;
+}
+.social-icon i{
+    font-size:17px;
+}
+.icon-gray{
+    color:#64707b;
+}
+.icon-white{
+    color:#fff;
+}
+.icon-facebook:hover{
+    color:#0000ff;
+}
+.icon-twitter:hover{
+    color:#5EAADE;
+}
+.icon-google-plus:hover{
+    color:#B93425;
+}
+.icon-youtube:hover{
+    color:#EE1C1B;
+}
+/*===============================================================================================
+                                CONTACT SECTION CSS
+===============================================================================================*/
+.contact-cover{
+    background: #31487c;
+    height:50%;
+}
+.contact{
+    color:white;
+    font-size:35px;
+    font-family: "roboto";
+    padding:20px;
+    margin-bottom: 0px;
+}
+.address{
+    color:white;
+    font-size:16px;
+    font-family: "roboto";
+    margin-left:23%;
+    margin-top:10%;
+}
+.iconic{
+    margin-left:35%;
+    margin-bottom: 0px;
+}
+.link{
+    margin-top: 20px;
+    margin-left:5%;
+}
+.address1{
+    font-family:"roboto";
+    font-size:19px;
+    color:white;
+    
+}
+.all-links{
+    margin-left:15%;
+}
+.form-control{
+    background-color: transparent;
+    border-radius: 0;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 300;
+    border-color: #fff;
+    margin-bottom:20px;
+    padding: 2px 8px;
+    width:300px;
+    margin-left:15%;
+}
+.btn-white{
+    color:#fff;
+    border-color:#fff;
+    border-radius:0px;
+    margin-left:15%;
+    margin-top:2%;
+    
+}
+.btn-white:hover,
+.btn-white:focus{
+    background: #fff;
+    color:#41464B;
+}
+
+.contact-right{
+    margin-top:10%;
+}
+.slash{
+    color:white;
+    padding:15px;
+}
+.copyright{
+    background:#003366;
+    width:100%;
+    height:90px;
+    
+}
+.copy{
+    color:white;
+    font-size:20px;
+    padding:30px;
+}
